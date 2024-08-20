@@ -43,6 +43,10 @@ import Mahshad_Pic from './Mahshad_Pic';
 import Mahshad_Share from './Mahshad_Share';
 import Mahshad_Memoirs from './Mahshad_Memoirs';
 import Mahshad_Pilgrimage from './Mahshad_Pilgrimage';
+import Specifications from './Specifications';
+import Autobiography from './Autobiography';
+import Ceremony from './ceremony';
+
 
 const Mahshad_List = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -51,10 +55,10 @@ const Mahshad_List = () => {
     { title: 'فیلم و تصویر', content: <Mahshad_Pic/> },
     { title: 'اشتراک گذاری', content: <Mahshad_Share/> },
     { title: 'دلنوشته و خاطرات', content: <Mahshad_Memoirs/> },
-    { title: 'خلاصه زندگی نامه', content: <p>اینجا خلاصه زندگی نامه قرار می‌گیرد.</p> },
-    { title: 'زندگی نامه', content: <p>اینجا زندگی نامه قرار می‌گیرد.</p> },
+    { title: 'خلاصه زندگی نامه', content: <Specifications/> },
+    { title: 'زندگی نامه', content: <Autobiography/> },
     { title: 'زیارت', content: <Mahshad_Pilgrimage/> },
-    { title: 'مراسم', content: <p>اینجا مراسم قرار می‌گیرد.</p> },
+    { title: 'مراسم', content: <Ceremony/> },
     { title: 'بارکد', content: <img src="path/to/barcode.jpg" alt="Barcode" /> },
   ];
 
@@ -80,7 +84,6 @@ const Mahshad_List = () => {
     </div>
   );
 };
-
 
 
 
