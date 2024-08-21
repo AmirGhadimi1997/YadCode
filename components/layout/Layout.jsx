@@ -1,3 +1,4 @@
+import Footer from "../module/Footer"
 
 
 
@@ -29,9 +30,35 @@ function Layout( { children } ) {
 
       <div>{children}</div>
 
-      {/* <footer>
-        <h1 className="text-5xl">سایت یاد کد</h1>
-      </footer> */}
+      <footer>
+
+
+       <Footer/>
+
+
+
+
+        {/* <div className="w-[1000px] h-[500px] bg-red-100 mx-40 rounded-xl grid grid-cols-12 ">
+           <ul className="flex gap-8 p-10 col-span-8 ">
+            <li>یادکد چیست ؟</li>
+            <li>یادکدهای ثبت شده</li>
+            <li>بلاگ</li>
+            <li>تماس</li>
+            <li>درباره ما</li>
+            <li>قوانین</li>
+           </ul>
+
+           
+            <div className="gap-8 p-10 col-span-4 flex">
+               <button className="w-[100px] h-[30px] rounded-lg bg-white mx-5 ">ورود</button>
+               <button className="w-[100px] h-[30px] rounded-lg bg-white ">ثبت نام</button>
+            </div>
+            
+
+        </div> */}
+
+        
+      </footer>
 
 </>
 

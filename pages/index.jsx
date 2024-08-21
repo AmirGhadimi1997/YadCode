@@ -25,7 +25,7 @@ export default function Home() {
 
 
 
-       <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+       <br /> <br /> <br /> <br /> <br />
 
       </div>
      
