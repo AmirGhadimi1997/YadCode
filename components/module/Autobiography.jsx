@@ -2,7 +2,7 @@
 
 function Autobiography() {
   return (
-    <div className="w-5/12 h-52 bg-red-50 rounded-xl p-5 ">
+    <div className="w-5/12 h-52 bg-secondary rounded-xl p-5 ">
 
       <p className="text-justify">
         زنده یاد مهشاد کریمی در ٩ فروردین ١٣٧۵ متولد شد. وی از دانش آموختگان

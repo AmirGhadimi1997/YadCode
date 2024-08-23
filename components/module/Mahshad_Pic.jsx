@@ -23,7 +23,7 @@ function Mahshad_Pic() {
 
 
   return (
-    <div className="relative w-8/12 h-[500px] flex justify-center items-center">
+    <div className="relative w-5/12 h-[500px] flex justify-center items-center">
       <div className="absolute inset-0 flex justify-between items-center">
         <button
           onClick={prevSlide}

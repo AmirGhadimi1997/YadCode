@@ -2,7 +2,7 @@
 
 function Footer() {
   return (
-    <div className="w-[1000px] h-[500px] bg-red-100 mx-40 rounded-xl flex flex-col">
+    <div className="w-[1000px] h-[500px] bg-secondary mx-auto rounded-xl flex flex-col ">
 
        <div className="w-[1000px] h-[100px] grid grid-cols-12">
           <ul className="flex gap-5 text-md col-span-8 p-8">
@@ -20,7 +20,7 @@ function Footer() {
           </div>
        </div>
 
-
+       <hr className="border-t-1 border-gray-500 my-4 w-12/12 mx-5" />
 
        <div className="w-[1000px] h-[400px] grid grid-cols-12">
 

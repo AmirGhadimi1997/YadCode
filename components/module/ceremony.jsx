@@ -2,7 +2,7 @@
 
 function Ceremony() {
   return (
-    <div className="w-8/12 h-[700px] bg-red-50 rounded-xl p-5 ">
+    <div className="w-5/12 h-[800px] bg-secondary rounded-xl p-5 ">
 
       <p className="text-xl">
         جهت ثبت درخواست برگزاری مراسم آنلاین (شامل قاری، سخنران و مداح) روی دکمه
@@ -10,9 +10,9 @@ function Ceremony() {
         ویدئوی زیر را ببینید.
       </p>
       
-      <div className="flex justify-center mt-10 ">
+      <div className="flex justify-center my-10 ">
 
-        <button className="w-8/12 h-14 bg-green-500 rounded-2xl text-white text-xl">سفارش مراسم آنلاین</button>
+        <button className="w-8/12 h-14 bg-accent rounded-2xl text-white text-xl">سفارش مراسم آنلاین</button>
 
       </div>
 

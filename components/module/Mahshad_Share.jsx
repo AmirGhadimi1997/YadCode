@@ -2,7 +2,7 @@
 
 function Mahshad_Share() {
   return (
-    <div className="w-[800px] h-[150px] rounded-xl bg-orange-200 grid grid-cols-12 ">
+    <div className="w-[800px] h-[150px] rounded-xl bg-secondary grid grid-cols-12 ">
 
       <div className="h-[150px]  col-span-6 flex flex-col justify-center items-center">
          <div className="flex flex-col justify-center items-center">
