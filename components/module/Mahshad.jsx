@@ -6,8 +6,8 @@ function Mahshad() {
     
     <>
 
-     <div className="w-full h-48   grid grid-cols-12 px-60">
-        <div className="h-48  col-span-11 flex justify-center">
+     <div className="w-full h-48   grid grid-cols-12 px-80">
+        <div className="h-48  col-span-11 flex justify-center ">
            <img src="/images/Mahshad.jpg" alt="زنده یاد مهشاد کریمی" className='rounded-full w-[180px] h-[180px] mr-40'/>
         </div>
 
@@ -17,8 +17,8 @@ function Mahshad() {
         </div>
      </div>
      
-    <div className="flex  justify-center mt-5">
-       <h1 className="text-3xl ">زنده یاد مهشاد کریمی</h1> 
+    <div className="flex  justify-center mt-3">
+       <h1 className="text-xl font-Estedad-Bold mr-12">زنده یاد مهشاد کریمی</h1> 
     </div>
 
     <div className="flex justify-center mt-8">

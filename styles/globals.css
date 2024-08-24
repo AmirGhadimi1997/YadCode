@@ -1,6 +1,48 @@
+@font-face {
+  font-family: Estedad-Bold;
+  src: url(../public/Fonts/Estedad-Bold.woff2)format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  
+}
+
+
+@font-face {
+  font-family: Estedad-Light;
+  src: url(../public/Fonts/Estedad-Light.woff2)format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  
+}
+
+@font-face {
+  font-family: Estedad-SemiBold;
+  src: url(../public/Fonts/Estedad-SemiBold.woff2)format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+
+@font-face {
+  font-family: Estedad-Regular;
+  src: url(../public/Fonts/Estedad-Regular.woff2)format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  
+}
+
+
+
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
 
 
 

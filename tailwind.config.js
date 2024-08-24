@@ -12,6 +12,15 @@ module.exports = {
         secondary: 'var(--secondary-color)',
         accent: 'var(--accent-color)',
       },
+      fontFamily:{
+        "Estedad-Bold" : "Estedad-Bold",
+        "Estedad-Light" : "Estedad-Light",
+        "Estedad-SemiBold" : "Estedad-SemiBold",
+        "Estedad-Regular" : "Estedad-Regular",
+        
+
+
+      }
     },
     
   },

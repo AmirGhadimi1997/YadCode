@@ -68,7 +68,7 @@ const Mahshad_List = () => {
         {items.map((item, index) => (
           <li
             key={index}
-            className={`mx-4 py-2 cursor-pointer relative ${
+            className={`mx-4 py-2 font-Estedad-Regular cursor-pointer relative ${
               activeIndex === index ? 'after:bg-green-500' : ''
             } after:content-[''] after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:transition-colors`}
             onClick={() => setActiveIndex(index)}
